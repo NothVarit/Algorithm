@@ -13,6 +13,7 @@ int main() {
     for (int i = 0; i< n; i++) {
         cin >> v[i];
     }
+    
     coun = 0;
     for (int i = 0; i < n; i++) {
         for (int j = i; j < v.size(); j++) {
